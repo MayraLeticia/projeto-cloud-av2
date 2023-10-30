@@ -25,7 +25,7 @@ app.get("/cadastro/:nome?", function(req,res){
     if (nome){
         res.send("<h1>Membro " + nome + " adicionado!</h1>");
     }else{
-        res.send("Membro adicionado! alteração");
+        res.send("Membro adicionado!");
     }
     
 })
